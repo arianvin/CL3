@@ -12,8 +12,8 @@ public class TestEntidadUsuarioCl3 {
 		TblUsuariocl3 usuario=new TblUsuariocl3();
 		ClassUsuarioCl3Imp crud=new ClassUsuarioCl3Imp();
 		//asignamos valores
-		usuario.setUsuariocl3("arian");
-		usuario.setPasswordcl3("123");
+		usuario.setUsuariocl3("bruno");
+		usuario.setPasswordcl3("321");
 		//invocamos al metodo registrar...
 		crud.RegistrarUsuarioCl3(usuario);
 		
@@ -26,14 +26,6 @@ public class TestEntidadUsuarioCl3 {
 			System.out.println("Usuario: "+lis.getUsuariocl3()+
 					"Password: "+lis.getPasswordcl3());
 		}
-		
-		
-		
-
-		
-		
-		
-		
 		
 	}//fin del metodo main
 

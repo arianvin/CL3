@@ -11,7 +11,7 @@
     <table align="center">
         <tr>
             <td align="center">
-                <h2>INGRESAR AL SISTEMA</h2>
+                <h2>MENU - PRINCIPAL</h2>
             </td>
         </tr>
         
@@ -19,19 +19,7 @@
             <td align="center">
                 <form action="ruta/para/login" method="post">
                     <table border="1" cellpadding="10" cellspacing="0">
-                        <tr>
-                            <td>Usuario:</td>
-                            <td><input type="text" name="usuariocl3" required></td>
-                        </tr>
-                        <tr>
-                            <td>Contraseña:</td>
-                            <td><input type="password" name="passwordcl3" required></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">
-                                <input type="submit" value="Registrar">
-                            </td>
-                        </tr>
+                        
                     </table>
                 </form>
             </td>
